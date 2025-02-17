@@ -5,6 +5,18 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+* {
+margin 0;
+padding 0;
+font-family: sans-rerif;
+}
+
+navbar {
+display: flex;
+justify-content: space-bewtween;
+background-color: white;
+
+
 /**--------- header ------- */
 
 
