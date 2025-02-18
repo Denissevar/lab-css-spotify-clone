@@ -6,8 +6,6 @@ Green: #00B172
 White: #FFF
 
 * {
-margin 0;
-padding 0;
 font-family: sans-rerif;
 box-sizing: border-box;
 }
@@ -24,40 +22,55 @@ body {
 
 /** los selectores de clase respetando en lo que pueda la estructura */
 
-.navbar__logo {
-    width: 33%;
-}
 
-header {
-    display: flex;
-    width: 100%;
-    height: 100px;
-
-}
+/** navbar***/
 
 .navbar {
-display: flex;
-justify-content: space-bewtween;
-align-items: center;
-background-color: white;
-color: #1A1A1A;
-position: fixed;
-top: 0px;
-width: 100%;
-}
-
-.feature {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 .navbar__logo {
-    width: 200px;
+    width: 200px;   
 }
 
-
-.backgroundimage {
-
+.navbar__links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
 }
+
+.navbar__links a {
+    color: #1a1a1a;
+}
+
+/** HERO section **/
+
+.hero {
+    height: 600px;
+    background: white url(../images/landing.jpg) no repeat center bottom / cover;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero__title {
+    font-size: 3re,;
+}
+
+.hero__description {
+    font-size: 2rem;
+}
+
 
 /**--------- header ------- */
+..footer {
 
+}
 
