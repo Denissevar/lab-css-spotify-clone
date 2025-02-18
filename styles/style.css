@@ -109,10 +109,39 @@ background: white url(../images/music-icon.png) no-repeat center top / 75px;
 }
 
 .features__stream {
-    background: white url("../images/devices-icon.png") no-repeat center top / 75%;
+    background: white url("../images/devices-icon.png") no-repeat center top / 75px;
 }
 
+.actions {
+    background-color: #00B172;
+    color: white;
+    padding: 3rem;
+    background: #00B172 url("../images/spotify-app.jpg") no-repeat center / 100px;
+    
+     
+}
+.actions__title {
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
 
+.actions__search {}
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+.actions article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    
+
+
+}
 
 /**--------- header ------- */
 .footer {
