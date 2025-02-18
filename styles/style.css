@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 * {
-font-family: sans-rerif;
+font-family: sans-serif;
 box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .hero {
     height: 600px;
-    background: white url(../images/landing.jpg) no repeat center bottom / cover;
+    background: white url("../images/landing.jpg") no-repeat center bottom / cover;
 color: white;
 display: flex;
 align-items: center;
@@ -61,16 +61,35 @@ justify-content: center;
 }
 
 .hero__title {
-    font-size: 3re,;
+    font-size: 3rem;
 }
 
 .hero__description {
-    font-size: 2rem;
+    font-size: 2rem 0;
 }
 
+/** --------section features--------- */
+
+
+.spotify {
+    margin: 2rem 0;
+}
+
+spotify__title {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.column h2 {
+    text-decoration: underline 1px green;
+
+}
 
 /**--------- header ------- */
-..footer {
+.footer {
 
 }
 
